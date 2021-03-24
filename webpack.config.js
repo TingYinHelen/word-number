@@ -5,12 +5,11 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'word-number.js',
-    library: {
-      name: 'WordNumber',
-      type: 'umd'
-    },
+    library: 'WordNumber',
+    libraryTarget: 'umd',
+    globalObject: 'typeof self !== \'undefined\' ? self : this'
   },
   externals: {
-    lodash: 'lodash'
+    "lodash": 'lodash'
   },
 };
