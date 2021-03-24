@@ -1,26 +1,24 @@
 {
   "name": "word-number",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "dist/word-numbers.js",
+  "main": "dist/word-number.js",
   "scripts": {
     "build": "webpack"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TingYinHelen/stringify-number.git"
+    "url": "git+https://github.com/TingYinHelen/word-number.git"
   },
   "author": "Helen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TingYinHelen/stringify-number/issues"
+    "url": "https://github.com/TingYinHelen/word-number/issues"
   },
-  "homepage": "https://github.com/TingYinHelen/stringify-number#readme",
-  "dependencies": {
-    "lodash": "^4.17.21"
-  },
+  "homepage": "https://github.com/TingYinHelen/word-number#readme",
   "devDependencies": {
     "webpack": "^5.27.2",
-    "webpack-cli": "^4.5.0"
+    "webpack-cli": "^4.5.0",
+    "lodash": "^4.17.21"
   }
 }
