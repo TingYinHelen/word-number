@@ -1,6 +1,6 @@
 {
   "name": "word-number",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "",
   "main": "dist/word-number.js",
   "module": "src/index.js",
