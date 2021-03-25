@@ -8,6 +8,7 @@ module.exports = {
     filename: 'word-number.js',
     library: 'WordNumber',
     libraryTarget: 'umd',
+    libraryExport: 'default',
     globalObject: 'typeof self !== \'undefined\' ? self : this'
   },
   externals: {
